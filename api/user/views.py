@@ -53,3 +53,17 @@ def signin(request):
 
     except UserModel.DoesNotExist:
         return JsonResponse({'error':'Invalid Email'})
+
+def signout(request, id):
+    logout(request)
+
+    UserModel = get_user_model()
+
+    try:
+        user = UserModel.objects.get(pk=id)
+        user.session_token="0"
+        user.save()
+    except UserModel.DoesNotExist:
+        return JsonResponse({'error': 'Invalid user ID'})
+
+    return JsonResponse({'success': 'Logout success'})
