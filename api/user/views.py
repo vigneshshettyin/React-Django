@@ -67,3 +67,15 @@ def signout(request, id):
         return JsonResponse({'error': 'Invalid user ID'})
 
     return JsonResponse({'success': 'Logout success'})
+
+class UserViewSet(viewsets.ModelViewSet):
+    permission_classes_by_action = {'create': [AllowAny]}
+
+    queryset = CustomUser.objects.all().order_by('id')
+    serializer_class = UserSerializer
+
+    def get_permissions(self):
+        try:
+            return [permission() for permission in self.permission_classes_by_action[self.action]]
+        except KeyError:
+            return [permission() for permission in self.permission_classes]
