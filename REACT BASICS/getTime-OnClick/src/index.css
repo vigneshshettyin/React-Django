@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: blueviolet;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+}
+
+div {
+  padding-top: 50px;
+  margin: auto;
+  width: 50%;
+}
+
+h1 {
+  color: white;
+  padding-bottom: 25px;
+}
+
+span {
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+}
+button {
+  background-color: black;
+  color: yellow;
+  border-radius: 10px;
+  border: none;
+  outline-color: azure;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
