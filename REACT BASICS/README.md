@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Hosted React Projects
 
-REACT TODO APP[TODO APP](https://silly-lamport-9c591a.netlify.app/)
+REACT TODO APP  [TODO APP](https://silly-lamport-9c591a.netlify.app/)
 
 ## Available Scripts
 
