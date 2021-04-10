@@ -1,5 +1,10 @@
 # React-Django
-Create a full-stack application with payment gateway integration in Django and react. Tech Stack Django V3 and modern react with hooks.  
+Create a full-stack application with payment gateway integration in Django and react. Tech Stack Django V3 and modern react with hooks.
 
+## Technology Stack
 
-[![Demo Video](https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/2410/certificates/71676/3562089_71676.png)](https://courses.learncodeonline.in/learn/certificate/3562089-71676)
+**Frontend:** React(+ Bootstrap 4)  
+**Backend:** Python/Django  
+**Database:** SQLite
+
+<img src="https://cdn.discordapp.com/attachments/702177348245782574/830301002715627570/3562089_71676.png" alt="Learn Code Online" height=1000>
